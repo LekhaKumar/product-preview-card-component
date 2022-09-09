@@ -40,6 +40,7 @@ body{
   padding: 10px 56px 10px 56px;
   background-color:hsl(158, 36%, 37%) !important;
   border: none !important;
+  color: white;
 }
 
 .btn:hover{
@@ -86,6 +87,7 @@ display: block;
   padding: 10px 56px 10px 56px;
   background-color:hsl(158, 36%, 37%) ;
   border: none !important; 
+  color: white;
 }
 .btn:hover{
   background-color:hwb(158 10% 77%) !important;
@@ -138,6 +140,7 @@ display: block;
   font-size: 12px;
   margin: auto;
   text-decoration: line-through;
+  vertical-align: super;
   
 }
 
