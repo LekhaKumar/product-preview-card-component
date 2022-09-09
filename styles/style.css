@@ -1,0 +1,146 @@
+/* CSS STYLESHEET FOR THE INDEX.HTML */
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+/* Responsive design for the mobile and desktop */
+
+/* For the size larger than mobile */
+@media(min-width: 375.02px){
+  
+.desktop-only{
+    display: block;
+    }
+.mobile-only {
+    display: none;
+    }
+
+.container{
+  margin: auto;
+}
+
+.card{
+    flex-direction: row;
+    width: 600px;
+    height: 450px;
+    margin: 150px auto 150px auto;
+  
+  }
+  .card-body{
+    padding: 30px;
+  }
+  
+  .subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.btn{
+  margin: 12px auto 12px auto;
+  padding: 10px 56px 10px 56px;
+  background-color:hsl(158, 36%, 37%) !important;
+  border: none !important;
+}
+
+.btn:hover{
+  background-color:hwb(158 10% 77%) !important;
+  border: none !important;
+}
+
+.btn:active{
+  background-color:hwb(158 10% 77%) !important;
+  border: none !important;
+}
+
+}
+
+/* For mobile */
+@media(max-width: 375px) {
+
+.desktop-only {
+display: none;
+}
+.mobile-only{
+display: block;
+}
+
+.card{
+
+  width: 300px;
+  height: 550px;
+  margin: 20px auto 20px auto;
+  
+
+}
+.card-body{
+  padding: 20px;
+}
+
+.subtitle{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  margin: 0px auto 12px auto;
+  padding: 10px 56px 10px 56px;
+  background-color:hsl(158, 36%, 37%) ;
+  border: none !important; 
+}
+.btn:hover{
+  background-color:hwb(158 10% 77%) !important;
+  border: none !important;
+}
+
+.btn:active{
+  background-color:hwb(158 10% 77%) !important;
+  border: none !important;
+}
+
+}
+
+/* For general design */
+.subtitle{
+  font-family: "Montserrat";
+  font-stretch: 150%;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.card-title{
+  font-family: "fraunces";
+  font-weight: 700;
+  margin-top: 0px;
+
+} 
+
+.description{
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.5;
+  padding-right: 12px;
+}
+
+.before-discount, .after-discount{
+  display: inline-block;
+}
+
+.after-discount{
+  font-family: "fraunces";
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  margin-right: 14px;
+
+}
+
+.before-discount{
+  font-family: "Montserrat";
+  font-size: 12px;
+  margin: auto;
+  text-decoration: line-through;
+  
+}
+
+.cart-image{
+  margin-right: 5px;
+}
