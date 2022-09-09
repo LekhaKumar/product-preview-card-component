@@ -46,11 +46,13 @@ body{
 .btn:hover{
   background-color:hwb(158 10% 77%) !important;
   border: none !important;
+  color: white;
 }
 
 .btn:active{
   background-color:hwb(158 10% 77%) !important;
   border: none !important;
+  color: white;
 }
 
 }
@@ -92,11 +94,13 @@ display: block;
 .btn:hover{
   background-color:hwb(158 10% 77%) !important;
   border: none !important;
+  color: white;
 }
 
 .btn:active{
   background-color:hwb(158 10% 77%) !important;
   border: none !important;
+  color: white;
 }
 
 }
